@@ -16,7 +16,10 @@ namespace RepeactedNumbers
             int[] numbers = new int[x];
             for (int i = 0; i < numbers.Length; i++)
             {
+                if (!int.TryParse(Console.ReadLine(), out int n))
+                    Console.Write("Solo puede digitar Numeros, vuelva a intentar: ");
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
+                
             }
 
             Dictionary<int, int> RepeatedNumbers = new Dictionary<int, int>();
