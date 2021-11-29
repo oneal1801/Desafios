@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepeactedNumbers", "RepeactedNumbers.csproj", "{6616CD05-00EC-48C5-BFF3-F4A6DBA448A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeactNumbersLinq", "..\RepeactNumbersLinq\RepeactNumbersLinq.csproj", "{76F5B15B-C4C7-4FDA-88A9-9F9B34AC4822}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepeactNumbersLinq", "..\RepeactNumbersLinq\RepeactNumbersLinq.csproj", "{76F5B15B-C4C7-4FDA-88A9-9F9B34AC4822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multiples3or5", "..\Multiples3or5\Multiples3or5.csproj", "{525352DB-E2E3-455B-A2E5-A361290F97A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpinWords", "..\SpinWords\SpinWords.csproj", "{9782D6BB-74B7-43BF-856D-CF313AA51B3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{76F5B15B-C4C7-4FDA-88A9-9F9B34AC4822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76F5B15B-C4C7-4FDA-88A9-9F9B34AC4822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76F5B15B-C4C7-4FDA-88A9-9F9B34AC4822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525352DB-E2E3-455B-A2E5-A361290F97A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525352DB-E2E3-455B-A2E5-A361290F97A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525352DB-E2E3-455B-A2E5-A361290F97A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525352DB-E2E3-455B-A2E5-A361290F97A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9782D6BB-74B7-43BF-856D-CF313AA51B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9782D6BB-74B7-43BF-856D-CF313AA51B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9782D6BB-74B7-43BF-856D-CF313AA51B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9782D6BB-74B7-43BF-856D-CF313AA51B3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

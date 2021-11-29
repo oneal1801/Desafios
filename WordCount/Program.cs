@@ -24,7 +24,9 @@ class MainClass
 
         char[] delimiters = new char[] {' ', '\r', '\n'};
 
-        var Textplitted = text.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+        var Textplitted = text.ToLower().Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+
+        text.ToCharArray();
 
         Console.WriteLine($"This paragraph has {Textplitted.Length} words");
 
@@ -42,8 +44,15 @@ class MainClass
 
         }
 
-        
-        
+        foreach (var item in RepeatedWords.ToList())
+        {
+            if (item.Value > 1)
+            {
+                Console.WriteLine($"la palabra se repite:{item.Key}: se repite: {item.Value}");
+            }
+        }
+
+
 
 
 
